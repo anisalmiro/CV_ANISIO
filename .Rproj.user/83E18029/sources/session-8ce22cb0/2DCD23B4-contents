@@ -1,0 +1,134 @@
+# Aplicação R Shiny - CV Anísio Almiro Bule
+
+## Descrição
+
+Esta é uma aplicação web interativa desenvolvida em R Shiny que apresenta o currículo de Anísio Almiro Bule de forma moderna e profissional. A aplicação oferece suporte a dois idiomas (Português e Inglês) e organiza as informações de forma clara e acessível.
+
+## Características
+
+### 🌐 Multilíngue
+- **Português**: Versão completa em português brasileiro
+- **English**: Versão completa em inglês
+- Alternância de idioma em tempo real através do seletor no canto superior direito
+
+### 📱 Design Responsivo
+- Interface moderna com gradientes e cards
+- Layout responsivo que se adapta a diferentes tamanhos de tela
+- Cores profissionais e tipografia clara
+
+### 📊 Seções Organizadas
+1. **Informações Pessoais**: Dados de contato e identificação
+2. **Resumo Profissional**: Principais áreas de especialização
+3. **Experiência Profissional**: Histórico de trabalho com tabela interativa
+4. **Formação Acadêmica**: Educação e certificações
+5. **Habilidades Técnicas**: Competências organizadas por categoria com tags coloridas
+6. **Idiomas**: Línguas faladas
+7. **Referências**: Contatos profissionais
+
+### 🔧 Funcionalidades Técnicas
+- Tabelas interativas com busca e paginação (DataTables)
+- Tags coloridas para habilidades técnicas
+- Seletor de idioma dinâmico
+- Interface limpa e profissional
+
+## Tecnologias Utilizadas
+
+- **R**: Linguagem de programação
+- **Shiny**: Framework para aplicações web em R
+- **DT**: Tabelas interativas
+- **HTML/CSS**: Estilização personalizada
+- **Bootstrap**: Framework CSS (incluído no Shiny)
+
+## Estrutura dos Arquivos
+
+```
+/home/ubuntu/
+├── app.R              # Aplicação principal Shiny
+├── cv_data.R          # Dados estruturados do CV
+├── run_app.R          # Script para executar a aplicação
+├── install_packages.R # Script para instalar dependências
+└── README.md          # Esta documentação
+```
+
+## Como Executar Localmente
+
+### Pré-requisitos
+- R instalado (versão 4.0 ou superior)
+- Pacotes R necessários (instalados automaticamente)
+
+### Passos para Execução
+
+1. **Instalar dependências**:
+   ```bash
+   Rscript install_packages.R
+   ```
+
+2. **Executar a aplicação**:
+   ```bash
+   Rscript run_app.R
+   ```
+
+3. **Acessar no navegador**:
+   - URL local: `http://localhost:3838`
+
+## Acesso Online
+
+## Personalização
+
+### Modificar Dados
+Para atualizar as informações do CV, edite o arquivo `cv_data.R`:
+- Informações pessoais
+- Experiência profissional
+- Formação acadêmica
+- Habilidades técnicas
+- Traduções para ambos os idiomas
+
+### Modificar Aparência
+Para alterar o design, edite a seção CSS no arquivo `app.R`:
+- Cores e gradientes
+- Tipografia
+- Layout e espaçamento
+- Responsividade
+
+### Adicionar Idiomas
+Para adicionar novos idiomas:
+1. Adicione as traduções em `cv_data.R`
+2. Atualize o seletor de idioma em `app.R`
+3. Implemente a lógica reativa para o novo idioma
+
+## Funcionalidades Destacadas
+
+### Seletor de Idioma
+- Localizado no canto superior direito
+- Mudança instantânea de todo o conteúdo
+- Mantém o estado da aplicação
+
+### Tabelas Interativas
+- Busca em tempo real
+- Paginação automática
+- Ordenação por colunas
+- Responsivas em dispositivos móveis
+
+### Habilidades Técnicas
+- Organizadas por categoria
+- Tags coloridas para melhor visualização
+- Fácil identificação de competências
+
+### Design Profissional
+- Gradiente moderno no cabeçalho
+- Cards com sombras sutis
+- Cores consistentes
+- Tipografia legível
+
+## Suporte e Manutenção
+
+Para modificações ou atualizações:
+1. Edite os arquivos de dados (`cv_data.R`)
+2. Teste localmente
+3. Reinicie a aplicação
+4. Verifique a funcionalidade em ambos os idiomas
+
+## Licença
+
+Este projeto foi desenvolvido especificamente para Anísio Almiro Bule e pode ser modificado conforme necessário.
+
