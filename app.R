@@ -2,13 +2,29 @@
 # Versões em Português e Inglês
 
 # Carregar bibliotecas necessárias
+
+packages <- c("shiny", "DT", "plotly", "dplyr", "ggplot2")
+
+# Instalar pacotes que não estão instalados
+installed <- packages %in% installed.packages()
+if (any(!installed)) {
+  install.packages(packages[!installed], repos = "https://cloud.r-project.org")
+}
+
+# Carregar os pacotes
+lapply(packages, library, character.only = TRUE)
+
+
 library(shiny)
 library(DT)
 library(plotly)
 library(dplyr)
 library(ggplot2)
 
+
+
 # Carregar dados do CV
+if (!file.exists("cv_data.R")) stop("Arquivo cv_data.R não encontrado.")
 source("cv_data.R")
 
 # Interface do usuário (UI)

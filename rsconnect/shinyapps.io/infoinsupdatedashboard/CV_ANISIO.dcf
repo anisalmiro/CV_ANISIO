@@ -5,7 +5,7 @@ account: infoinsupdatedashboard
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 15094041
-bundleId: 10636662
+bundleId: 10647829
 url: https://infoinsupdatedashboard.shinyapps.io/CV_ANISIO/
 version: 1
 asMultiple: FALSE

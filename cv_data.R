@@ -71,6 +71,7 @@ work_experience <- list(
     ),
     empresa = c(
       "National Institute of Health",
+      "ICAP",
       "Itec Solutions Moçambique",
       "Developers Group (WE-IT)"
     ),
@@ -86,13 +87,15 @@ work_experience <- list(
 # Formação Acadêmica
 education <- list(
   pt = data.frame(
-    ano = c("2019", "2017", "2013"),
+    ano = c("2025","2019", "2017", "2013"),
     titulo = c(
+      "Mestrado em Gestão de Riscos de Desastres e Adaptação às Mudanças Climáticas (Em curso)",
       "Licenciatura em Informática",
       "Treinamento em Reparação de Computadores e Impressoras, Desenvolvimento de Firmware e Correção BSD",
       "Conclusão do Curso Técnico Médio em Ciências da Computação"
     ),
     instituicao = c(
+      "Universidade Eduardo Mondlane",
       "Universidade Eduardo Mondlane",
       "ITECGROUP SOUTH AFRICA",
       "Instituto Médio de Computação e Gestão - Maputo"
@@ -100,24 +103,28 @@ education <- list(
     observacoes = c(
       "Certificação em Ethical Hacking",
       "",
+      "",
       ""
     ),
     stringsAsFactors = FALSE
   ),
   en = data.frame(
-    ano = c("2019", "2017", "2013"),
+    ano = c("2025","2019", "2017", "2013"),
     titulo = c(
+      "Master Degree in Disaster Risk Management and Climate Change Adaptation (Ongoing)",
       "Informatics Degree",
       "Training in Computer and Printer Repair, Firmware Development and BSD Correction",
       "Completion of the Medium Technical Course in Computer Science"
     ),
     instituicao = c(
       "Eduardo Mondlane University",
+      "Eduardo Mondlane University",
       "ITECGROUP SOUTH AFRICA",
       "Middle Institute of Computing and Management - Maputo"
     ),
     observacoes = c(
       "Ethical Hacking Certification",
+      "",
       "",
       ""
     ),
